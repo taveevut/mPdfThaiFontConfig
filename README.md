@@ -1,12 +1,16 @@
 # Mpdf ตั่งค่าฟอนต์ภาษาไทยและสระไม่ลอย
+> upgrad/downgrad composer php version 5.6.30
 ## สามารถทำได้ดังนี้
 
 - นำฟอนต์ .ttf มาใส่ /vendor/mpdf/mpdf/ttfonts
-	หมายเหตุในตัวอย่างจะใช้ font [angsana new](assets/angsau.zip)
+	หมายเหตุในตัวอย่างจะใช้ฟอนต์ [Angsananew](assets/angsau.zip)
 - เปิดไฟล์ /vendor/mpdf/mpdf/src/Config/FontVariables.php
 - เพิ่มชื่อฟอนต์ใน array `fontdata`
+
 <img src="assets/img1.png">
+
 - ตอนเรียกใช้งาน
+
 <img src="assets/img2.png">
 
 <br>
